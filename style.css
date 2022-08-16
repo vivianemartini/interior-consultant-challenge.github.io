@@ -27,8 +27,16 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    width: 160%;
+    width: 140%;
     position: relative;
+}
+
+#toggle {
+    display: none;
+}
+
+.hamburguer {
+    display: none;
 }
 
 .nav-btn {
@@ -44,7 +52,7 @@ body {
     padding: 10px;
     cursor: pointer;
     position: relative;
-    right: 140px;
+    right: 100px;
 }
 
 .nav-li {
@@ -108,11 +116,11 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+    cursor: pointer;
 }
 
 .img-container img {
     width: 90%;
-    
     margin-left: 40px;
 }
 
@@ -203,4 +211,128 @@ body {
 .footer-text a {
     text-decoration: none;
     color: #A9A9A9;
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 15px;
+    }
+    .nav-bar {
+        justify-content: space-between;
+       
+    }
+    .hamburger {
+        position: absolute;
+        top: 5em;
+        right: 5%;
+        margin-left: -2em;
+        margin-top: -60px;
+        width: 2em;
+        height: 45px;
+        z-index: 10;
+    }
+    .hamburger div {
+        position: relative;
+        width: 2em;
+        height: 4px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        margin-top: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav-toggle  {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #181719;
+        top: -100%; left: 0; right: 0; bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
+        z-index: 5;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-ul-li {
+        position: relative;
+        text-decoration: none;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: color 0.2s ease-in-out;
+        height: 400px;
+        width: 200%;
+        margin-left: 60px;
+    }
+ 
+    #toggle:checked + .hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+    }
+    #toggle:checked + .hamburger .bottom-bun {
+       opacity: 0;
+        transform: rotate(45deg);
+    }
+    #toggle:checked + .hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -5px;
+    }
+      
+    #toggle:checked + .hamburger + .nav-toggle {
+        top: 0;
+        transform: scale(1);
+    }
+    .nav-btn {
+        right: 0px;
+    }
+    .content-box {
+        flex-direction: column;
+        height: 480px;
+        margin-top: 30px;
+    }
+    .text-box {
+        gap: 30px;
+        margin-bottom: 20px;
+        width: 75%;
+    }
+    .img-container img {
+       width: 100%;
+       margin-left: 5px;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .read-more {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .professional-box {
+        margin-left: 80px;
+        margin-top: 10px;
+        width: 300px;
+        height: 138px;
+        left: 52px;
+        top: 536px;
+    }
+    .profile-box img {
+        width: 20%;
+    }
+    .profile-name {
+        font-size: 12px;
+    line-height: 15px;
+    }
+    .profile-info {
+        font-size: 18px;
+    line-height: 23px;
+    }
 }
