@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
     <link rel="icon" href="img/devchallenges.png" />
     <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">    
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bab75d632b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Devchallenges - Interior Consultant</title>
   </head>
   <body>
@@ -24,14 +23,24 @@
           <div>
             <button class="nav-btn">This Interior</button>
           </div>
-          <div>
-            <ul class="nav-ul-li">
-              <li class="nav-li">Home</li>
-              <li class="nav-li">Collection</li>
-              <li class="nav-li">About</li>
-              <li class="nav-li">Contact</li>
-            </ul>
-          </div>
+          <input id="toggle" type="checkbox"></input>
+
+          <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+          </label>
+
+          <div class="nav-toggle">
+            <div class="toggle-content">
+              <ul class="nav-ul-li">
+                <li class="nav-li">Home</li>
+                <li class="nav-li">Collection</li>
+                <li class="nav-li">About</li>
+                <li class="nav-li">Contact</li>
+              </ul>
+            </div>
+        </div>
         </nav>
     </header>
 
