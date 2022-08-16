@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{https://vivianemartini.github.io/interior-consultant-challenge.github.io/}">
       Solution
     </a>
     <span> | </span>
@@ -29,11 +29,11 @@
 
 ## Overview
 
-![screenshot]()
+![screenshot](https://user-images.githubusercontent.com/70038975/184977321-0fe9330b-4a96-4ce3-965c-968c84fd61fe.PNG)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+This is an Interior Consultant Website.
 
-- Where can I see your demo? [Here]()
+- Where can I see your demo? [Here](https://vivianemartini.github.io/interior-consultant-challenge.github.io/)
 - What have you learned/improved?
   It was a great experience to practice burger menu.
 
