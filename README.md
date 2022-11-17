@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://github.com/vivianemartini/interior-consultant-challenge.github.io}">
+    <a href="https://vivianemartini.github.io/interior-consultant-challenge.github.io/">
       Demo
     </a>
     <span> | </span>
