@@ -48,5 +48,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://{https://github.com/vivianemartini})
-- Twitter [@your-twitter](https://{https://twitter.com/coffeeeandcode})
+- GitHub [@vivianemartini](https://{https://github.com/vivianemartini})
+- Twitter [@coffeeandcode](https://{https://twitter.com/coffeeeandcode})
